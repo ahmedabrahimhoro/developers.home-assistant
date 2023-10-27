@@ -1,4 +1,4 @@
----
+paypal developer
 title: "Creating your first integration"
 ---
 
@@ -9,7 +9,7 @@ python3 -m script.scaffold integration
 ```
 
 This will set you up with everything that you need to build an integration that is able to be set up via the user interface. More extensive examples of integrations are available from [our example repository](https://github.com/home-assistant/example-custom-config/tree/master/custom_components/).
-
+5
 ## The minimum
 
 The scaffold integration contains a bit more than just the bare minimum. The minimum is that you define a `DOMAIN` constant that contains the domain of the integration. The second part is that it needs to define a setup method that returns a boolean if the set up was successful.
@@ -27,7 +27,9 @@ def setup(hass, config):
 
 And if you prefer an async component:
 
-```python
+```p![Uploading 20231025_171055.jpg…]()
+![camera](https://github.com/home-assistant/developers.home-assistant/assets/147638720/3158382c-b16c-48f2-90ae-c070cf442f9d)
+python
 DOMAIN = "hello_state"
 
 
